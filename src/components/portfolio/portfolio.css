@@ -1,0 +1,100 @@
+#protfolio{
+    padding: 2% 0%;
+    background: #f5f5f5;
+}
+.protfolio_tab_custom{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 50px !important;
+}
+.protfolio_contant .nav-link:hover{
+    background-color: #e73131 !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: #ffffff !important;
+}
+.protfolio_contant .nav-link{
+    padding: 7px 15px !important;
+    background: #e5e5e5 !important;
+    color: #64686d !important;
+    position: relative;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+.protfolio_contant .nav-link.active::after {
+    content: " ";
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #e73131 transparent transparent transparent;
+
+}
+.protfolio_contant .nav-link.active{
+    background-color: #e73131 !important; 
+    color: #fff !important;
+}
+/* .protfolio_contant .nav-link
+.protfolio_contant .nav-link */
+
+
+
+
+
+.protfolio_item{
+    position: relative;
+    margin-bottom: 30px;
+}
+.protfolio_overly{
+    position: absolute;
+    padding: 0px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height:0;
+    bottom:0;
+    left: 0;
+    text-align: center;
+    overflow: hidden;
+    visibility: hidden;
+}
+.protfolio_overly{
+    font-size: 30px;
+    color: #e73131;
+}
+.protfolio_overly h6{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.protfolio_overly p{
+    font-size: 13px;
+    line-height: 25px;
+}
+.protfolio_item:hover .protfolio_overly{
+    height:135px;
+    padding: 10px;
+    transition:1s;
+    -webkit-transition:0.5s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+    visibility: visible;
+    color: #e73131;
+}
+.protfolio_item:hover h6{
+    color:#ffffff;
+}
+.protfolio_item:hover p{
+    color:#ffffff;
+}
+.protfolio_item img{
+    width:100%;
+}

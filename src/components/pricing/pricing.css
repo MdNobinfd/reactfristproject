@@ -1,0 +1,83 @@
+#pricing{
+    padding: 2% 0%;
+    justify-content: center;
+}
+.pricing_item{
+    margin-top: 70px;
+}
+.pricing{
+    position: relative;
+    border: 1px solid #eee;
+    border-radius: 5px 5px 4px 4px;
+    text-align: center;
+    padding:0px 0px 20px 0px;
+}
+.pricing ul li{
+    padding: 10px;
+    color: #666;
+    font-size: 14px;
+}
+.pricing:hover{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, .26);
+    transition-duration: 0.3s;
+}
+.pricing_top{
+    padding: 90px 0px 20px 0px;
+    background-color: #f8f8f8;
+}
+.pricing_top h3{
+    font-size: 21px;
+    color: #444;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.pricing_cercel{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e73131;
+    height: 116px;
+    width: 116px;
+    margin: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    padding-top: 20px;
+}
+.pricing_cercel h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.pricing_cercel p{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #ffffff;
+}
+.pricing_button{
+    border:2px solid #e73131 !important;
+    background-color: transparent !important;
+    color: #e73131 !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+.pricing_button:hover{
+    background-color: #e73131 !important;
+    color: #ffffff !important;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}

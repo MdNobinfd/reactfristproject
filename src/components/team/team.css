@@ -1,0 +1,106 @@
+#team{
+    text-align: center;
+    padding: 2% 0%;
+}
+.card_main:hover{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, .26);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.card_main .card-img-top {
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    width: 100%;
+}
+.card_main .card{
+    border: 0;
+    margin: 15px;
+}
+
+.card_main .card-title{
+    color: #333;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.card_main:hover .card-title{
+    color: #e73131;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.card_main .card-text{
+    font-size: 13px;
+    color: #666;
+    font-weight: 600;
+    line-height: 25px;
+}
+.card_main li{
+    padding: 0px 10px;
+}
+.card_main li a{
+    font-size: 25px;
+    color: #999 !important;
+    position: relative;
+}
+
+.icon_design1 a:hover{
+    color:#3b5998 !important;
+}
+.icon_design2 a:hover{
+    color:#55acee !important;
+}
+
+.icon_design3 a:hover{
+    color: #bd081c !important;
+}
+
+.icon_design4 a:hover{
+    color: #3f729b!important;
+}
+.icon_design5 a:hover{
+    color: #dc4e41!important;
+}
+
+
+.toltip::after{
+    content: " ";
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    margin-left: -12px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.toltip{
+    position: absolute;
+    top: -24px;
+    left: -15px;
+    font-size: 14px;
+    color: #ffffff;
+    visibility:hidden;
+    background-color: #000;
+    border-radius:3px ;
+    -webkit-border-radius:3px ;
+    -moz-border-radius:3px ;
+    -ms-border-radius:3px ;
+    -o-border-radius:3px ;
+    padding: 3px;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+.card_main li a:hover .toltip{
+    visibility: visible;
+
+}
